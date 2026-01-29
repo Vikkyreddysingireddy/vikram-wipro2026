@@ -1,0 +1,19 @@
+1769706171395	geckodriver	INFO	Listening on 127.0.0.1:56213
+1769706174539	mozrunner::runner	INFO	Running command: "C:\\Users\\svikk\\.cache\\selenium\\firefox\\win64\\147.0.2\\firefox.exe" "--marionette" "--remote-debuggin ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\svikk\\AppData\\Local\\Temp\\rust_mozprofileWC7bVj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1769706175639	Marionette	INFO	Marionette enabled
+1769706175799	Marionette	INFO	Listening on port 56224
+WebDriver BiDi listening on ws://127.0.0.1:56214
+Read port: 56224
+1769706175930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1769706509186	Marionette	INFO	Stopped listening on port 56224
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: "TelemetryScheduler.shutdown - Already shut down"
