@@ -1,0 +1,14 @@
+[
+    {
+        "code": "C100",
+        "name": "Politics",
+        "credits": 3,
+        "faculty_id": "F100"
+    },
+    {
+        "code": "C200",
+        "name": "Data communications",
+        "credits": 3,
+        "faculty_id": "F200"
+    }
+]

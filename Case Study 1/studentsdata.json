@@ -1,0 +1,67 @@
+[
+    {
+        "id": "S350",
+        "name": "Ram",
+        "department": "Mechanical",
+        "semester": 1,
+        "marks": [
+            100,
+            100,
+            100,
+            100,
+            100
+        ]
+    },
+    {
+        "id": "S500",
+        "name": "Laxman",
+        "department": "Law",
+        "semester": 3,
+        "marks": [
+            98,
+            89,
+            78,
+            65,
+            78
+        ]
+    },
+    {
+        "id": "S120",
+        "name": "Wipro",
+        "department": "CSE",
+        "semester": 1,
+        "marks": [
+            99,
+            89,
+            98,
+            89,
+            56
+        ]
+    },
+    {
+        "id": "S2000",
+        "name": "Vikram SIngireddy",
+        "department": "Civils",
+        "semester": 5,
+        "marks": [
+            89,
+            99,
+            89,
+            78,
+            56
+        ]
+    },
+    {
+        "id": "S300",
+        "name": "Vikram",
+        "department": "Civils",
+        "semester": 3,
+        "marks": [
+            89,
+            98,
+            56,
+            78,
+            98
+        ]
+    }
+]
