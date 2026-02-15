@@ -1,0 +1,33 @@
+1769685059721	geckodriver	INFO	Listening on 127.0.0.1:53897
+1769685059738	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Users/abhinay/.cache/ ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0c/54wrz86s5snf2k6p0t_v5qn00000gn/T/rust_mozprofileXKe0AZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1769685060861	Marionette	INFO	Marionette enabled
+2026-01-29 11:11:01.000 Firefox GPU Helper[21242:8519214] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-01-29 11:11:01.097 Firefox GPU Helper[21242:8519229] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-01-29 11:11:01.097 Firefox GPU Helper[21242:8519214] Error received in message reply handler: Connection invalid
+1769685061287	Marionette	INFO	Listening on port 53903
+WebDriver BiDi listening on ws://127.0.0.1:53898
+Read port: 53903
+1769685061410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1769685091555	Marionette	INFO	Stopped listening on port 53903
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":273,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":224,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"validateCollectionSignature","sourceId":22,"lineNumber":1103,"columnNumber":49,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":15,"lineNumber":570,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17\n","nativeSavedFrame":{}},"formattedStack":"validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1103:49\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:570:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:224:12\nvalidateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1103:49\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:570:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\nvalidateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1103:49\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:570:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\nvalidateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1103:49\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:570:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:273:15|fetch@resource://services-settings/Utils.sys.mjs:224:12|validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1103:49|observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17|
+  - prototype Object
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.warn: services.settings: main/websites-with-shared-credential-backends sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/password-rules getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
